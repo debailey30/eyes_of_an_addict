@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#bg)" rx="15"/>
+  
+  <!-- Brain Icon -->
+  <text x="150" y="80" font-family="Arial, sans-serif" font-size="64" fill="white" text-anchor="middle">🧠</text>
+  
+  <!-- Banner Background -->
+  <rect x="30" y="120" width="240" height="40" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="2" rx="4"/>
+  
+  <!-- Main Text -->
+  <text x="150" y="145" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">NEW MANAGEMENT</text>
+  
+  <!-- Subtitle 1 -->
+  <text x="150" y="185" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">UNDER NEW MANAGEMENT</text>
+  
+  <!-- Subtitle 2 -->
+  <text x="150" y="205" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">BETTER DECISIONS DAILY</text>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#bg)" rx="15"/>
+  
+  <!-- Terminal Box -->
+  <rect x="30" y="60" width="240" height="160" fill="#000000" stroke="#333333" stroke-width="1" rx="4"/>
+  
+  <!-- Terminal Text -->
+  <text x="40" y="90" font-family="Courier New, monospace" font-size="9" fill="#00ff00">&gt; GHOST MODE: DEACTIVATED</text>
+  <text x="40" y="110" font-family="Courier New, monospace" font-size="9" fill="#00ff00">&gt; PLAYER STATUS: FULLY PRESENT</text>
+  <text x="40" y="130" font-family="Courier New, monospace" font-size="9" fill="#00ff00">&gt; LIVES REMAINING: ∞</text>
+  <text x="40" y="150" font-family="Courier New, monospace" font-size="9" fill="#00ff00">&gt; RESPAWN LOCATION: REALITY</text>
+  <text x="40" y="170" font-family="Courier New, monospace" font-size="9" fill="#00ff00">&gt; READY PLAYER ONE</text>
+</svg>

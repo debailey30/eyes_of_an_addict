@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#bg)" stroke="#dddddd" stroke-width="3" rx="15"/>
+  
+  <!-- RX Box -->
+  <rect x="30" y="60" width="240" height="160" fill="#ffffff" stroke="#333333" stroke-width="2" rx="4"/>
+  
+  <!-- RX Symbol -->
+  <text x="50" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#4a90e2">℞</text>
+  
+  <!-- PRESCRIPTION Text -->
+  <text x="85" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">PRESCRIPTION</text>
+  
+  <!-- Details -->
+  <text x="50" y="120" font-family="Arial, sans-serif" font-size="11" fill="#333333">Patient: ME</text>
+  <text x="50" y="140" font-family="Arial, sans-serif" font-size="11" fill="#333333">RX: SELF-RESPECT</text>
+  <text x="50" y="160" font-family="Arial, sans-serif" font-size="11" fill="#333333">Dosage: DAILY</text>
+  <text x="50" y="180" font-family="Arial, sans-serif" font-size="11" fill="#333333">Refills: UNLIMITED</text>
+  <text x="50" y="200" font-family="Arial, sans-serif" font-size="11" fill="#333333">Side Effects: Happiness</text>
+</svg>

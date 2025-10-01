@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#bg)" rx="15"/>
+  
+  <!-- Construction Icon -->
+  <text x="150" y="80" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle">🚧</text>
+  
+  <!-- Main Text -->
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">UNDER CONSTRUCTION</text>
+  
+  <!-- Progress Bar Background -->
+  <rect x="50" y="150" width="200" height="12" fill="rgba(255,255,255,0.3)" rx="6"/>
+  
+  <!-- Progress Bar Fill -->
+  <rect x="50" y="150" width="200" height="12" fill="#27ae60" rx="6"/>
+  
+  <!-- Subtitle 1 -->
+  <text x="150" y="185" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">REBUILDING SINCE 2024</text>
+  
+  <!-- Subtitle 2 -->
+  <text x="150" y="205" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">PARDON THE PROGRESS</text>
+</svg>

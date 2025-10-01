@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e44ad;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9b59b6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#bg)" rx="15"/>
+  
+  <!-- Notification Box -->
+  <rect x="30" y="60" width="240" height="160" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1" rx="12"/>
+  
+  <!-- Check Icon -->
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="20" fill="#27ae60">✅</text>
+  
+  <!-- Title -->
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Software Update Complete</text>
+  
+  <!-- Feature List -->
+  <text x="50" y="130" font-family="Arial, sans-serif" font-size="11" fill="white">New Features: Clarity, Peace, Purpose</text>
+  <text x="50" y="150" font-family="Arial, sans-serif" font-size="11" fill="white">Bugs Fixed: All of them</text>
+  <text x="50" y="170" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.8)">Restart not required</text>
+</svg>
