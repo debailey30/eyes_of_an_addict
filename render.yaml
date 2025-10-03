@@ -1,0 +1,25 @@
+# Render service manifest (no secret values stored here)
+# Visit https://render.com/docs/render-manifest for details.
+services:
+  - type: web
+    name: eyes-of-an-addict-web
+    runtime: python
+    branch: main
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
+    startCommand: "gunicorn wsgi:app --workers 3 --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: SECRET_KEY
+      - key: DATABASE_URL
+      - key: SENDGRID_API_KEY
+      - key: STRIPE_SECRET_KEY
+
+  - type: worker
+    name: eyes-of-an-addict-worker
+    runtime: python
+    branch: main
+    startCommand: "rq worker default"
+    envVars:
+      - key: REDIS_URL
+      - key: SECRET_KEY
+      - key: SENDGRID_API_KEY
+      - key: STRIPE_SECRET_KEY
