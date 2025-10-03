@@ -1,0 +1,8 @@
+# Eyes-of-an-Addict requirements
+# This file lists all Python dependencies for deployment
+# Place this file at the project root for deployment tools to find it
+Flask
+SQLAlchemy
+sendgrid
+stripe
+python-dotenv
